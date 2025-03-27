@@ -1,6 +1,6 @@
 # Flo Energy - Energy Data Processing Platform
 
-[![Demo Video](https://drive.google.com/file/d/1x4wemNMrXktGJ4DKU48oIMNzukOAcDT0/view?usp=sharing) *(Placeholder)*
+[[Demo Video](https://drive.google.com/file/d/1x4wemNMrXktGJ4DKU48oIMNzukOAcDT0/view?usp=sharing) *(Placeholder)*
 
 ## 1. Introduction
 
