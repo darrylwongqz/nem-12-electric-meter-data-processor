@@ -139,7 +139,7 @@ The platform implements numerous optimizations to handle large datasets efficien
 
 3. Configure environment variables:
    - Database connection strings
-   - Firebase credentials
+   - Firebase credentials (note that you have to create firestore and configure cloud storage for it to work)
    - API endpoints
    - Storage bucket names
 
