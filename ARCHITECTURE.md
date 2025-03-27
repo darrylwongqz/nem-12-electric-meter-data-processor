@@ -485,34 +485,6 @@ Performance optimizations are applied in various places but lack systematic meas
   - Different error handling patterns
   - Different testing approaches
 
-#### Database Alternatives
-
-##### NoSQL (MongoDB) vs. PostgreSQL
-- **Approach**: Document-oriented storage instead of relational.
-- **Advantages**:
-  - Schema flexibility
-  - Native JSON support
-  - Potentially simpler scaling
-  - More natural mapping to JavaScript objects
-- **Considerations**:
-  - Different query capabilities
-  - Potential consistency tradeoffs
-  - Different indexing strategies
-  - Less mature time-series capabilities
-
-##### Time-Series Database vs. PostgreSQL
-- **Approach**: Specialized database for time-series data (InfluxDB, TimescaleDB).
-- **Advantages**:
-  - Optimized for time-series workloads
-  - Better compression for time-series data
-  - Built-in downsampling and retention policies
-  - Time-specific query functions
-- **Considerations**:
-  - Additional database to maintain
-  - Potential complexity in data synchronization
-  - Different query language
-  - More specialized skills required
-
 ## Q8. Explore alternative approaches or technologies that you considered during the development of the project.
 
 ### Alternative File Processing Approaches
