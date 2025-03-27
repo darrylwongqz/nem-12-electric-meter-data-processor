@@ -13,4 +13,4 @@ COPY . .
 RUN mkdir -p /tmp/uploads && chmod 777 /tmp/uploads
 
 # Command to run the worker
-CMD ["python", "worker.py"] 
+CMD ["celery", "-A", "app.tasks.worker", "worker", "--loglevel=info"] 
