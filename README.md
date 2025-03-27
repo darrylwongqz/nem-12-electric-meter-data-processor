@@ -1,7 +1,6 @@
 # Flo Energy - Energy Data Processing Platform
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Site-blue)](https://floenergy.example.com) *(Placeholder)*
-[![Demo Video](https://img.shields.io/badge/Demo-Watch_Video-red)](https://example.com/floenergy-demo) *(Placeholder)*
+[Demo Video](https://drive.google.com/file/d/1x4wemNMrXktGJ4DKU48oIMNzukOAcDT0/view?usp=sharing)
 
 ## 1. Introduction
 
@@ -140,7 +139,7 @@ The platform implements numerous optimizations to handle large datasets efficien
 
 3. Configure environment variables:
    - Database connection strings
-   - Firebase credentials
+   - Firebase credentials (note that you have to create firestore and configure cloud storage for it to work)
    - API endpoints
    - Storage bucket names
 
