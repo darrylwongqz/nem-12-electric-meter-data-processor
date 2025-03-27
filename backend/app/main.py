@@ -74,24 +74,9 @@ def custom_openapi():
 
 app.openapi = custom_openapi
 
-@app.get(
-    "/health",
-    tags=["health"],
-    summary="Health Check",
-    description="Endpoint to verify that the API is running and healthy.",
-    responses={
-        200: {
-            "description": "Successful health check",
-            "content": {
-                "application/json": {
-                    "example": {"status": "healthy"}
-                }
-            }
-        }
-    }
-)
+@app.get("/health", tags=["Health"])
 async def health_check():
-    logger.info("Health check requested")
+    """Health check endpoint for monitoring and deployment platforms."""
     return {"status": "healthy"}
 
 @app.on_event("startup")
