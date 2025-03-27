@@ -1,7 +1,6 @@
 # Flo Energy - Energy Data Processing Platform
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Site-blue)](https://floenergy.example.com) *(Placeholder)*
-[![Demo Video](https://img.shields.io/badge/Demo-Watch_Video-red)](https://example.com/floenergy-demo) *(Placeholder)*
+[![Demo Video](https://drive.google.com/file/d/1x4wemNMrXktGJ4DKU48oIMNzukOAcDT0/view?usp=sharing) *(Placeholder)*
 
 ## 1. Introduction
 
