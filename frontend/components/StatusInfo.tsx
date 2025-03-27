@@ -1,9 +1,17 @@
 import React from 'react';
 
+interface Reading {
+  nmi: string;
+  timestamp: string;
+  consumption: number;
+  is_flagged: boolean;
+  quality_method?: string;
+}
+
 interface StatusInfoProps {
   isLoading: boolean;
   error: string | null;
-  readings: any[];
+  readings: Reading[];
   totalCount: number;
 }
 

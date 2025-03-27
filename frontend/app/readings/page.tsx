@@ -1,6 +1,4 @@
-/* eslint-disable */
 'use client';
-/* eslint-enable */
 
 import { useState, useEffect } from 'react';
 import Layout from '../../components/Layout';
